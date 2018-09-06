@@ -1,0 +1,33 @@
+package com.example.mohammad.aaatest.L9_RadioButton;
+
+import android.support.annotation.IdRes;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
+import android.widget.Toast;
+
+import com.example.mohammad.aaatest.R;
+
+public class RadioButtonActivity extends AppCompatActivity {
+
+    RadioGroup rg ;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_radio_button);
+
+        rg = (RadioGroup) findViewById(R.id.rg);
+
+        rg.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup group, @IdRes int checkedId) {
+                int RadioButtonId = rg.getCheckedRadioButtonId();
+                RadioButton rb = (RadioButton)  findViewById(RadioButtonId);
+                Toast.makeText(RadioButtonActivity.this, rb.getText().toString(), Toast.LENGTH_SHORT).show();
+            }
+        });
+
+    }
+}
