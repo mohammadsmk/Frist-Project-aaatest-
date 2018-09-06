@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mohammad.aaatest.L9_RadioButton.RadioButtonActivity">
+
+
+  <RadioGroup
+      android:id="@+id/rg"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="10dp">
+      <RadioButton
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="10dp"
+          android:text="Kish"
+          android:padding="10dp"
+          android:button="@android:color/transparent"
+          android:background="@drawable/select"
+          />
+      <RadioButton
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="10dp"
+          android:background="@drawable/select"
+          android:padding="10dp"
+          android:button="@android:color/transparent"
+          android:text="Tehran"/>
+      <RadioButton
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="10dp"
+          android:background="@drawable/select"
+          android:button="@android:color/transparent"
+          android:padding="10dp"
+          android:text="Shiraz"/>
+      <RadioButton
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="10dp"
+          android:padding="10dp"
+          android:background="@drawable/select"
+          android:button="@android:color/transparent"
+          android:text="Mashhad"/>
+  </RadioGroup>
+
+
+
+
+</LinearLayout>
