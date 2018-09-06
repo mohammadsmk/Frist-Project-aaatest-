@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.mohammad.aaatest.L8_Toast.ToastActivity">
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:text="Simple Toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnToast1"
+        android:onClick="simpleToast"
+        />
+    <Button
+        android:text="Test Color For Toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btnToast2"
+        android:onClick="testColorForToast"
+        />
+    <Button
+        android:text="ALERT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:tag="alert"
+        android:onClick="testColoredToast"
+        />
+    <Button
+        android:text="WARNING"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tag="warning"
+        android:layout_gravity="center_horizontal"
+        android:onClick="testColoredToast"
+        />
+    <Button
+        android:text="INFO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tag="info"
+        android:layout_gravity="center_horizontal"
+        android:onClick="testColoredToast"
+        />
+    <Button
+        android:text="SUCCESS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tag="success"
+        android:layout_gravity="center_horizontal"
+        android:onClick="testColoredToast"
+        />
+    <Button
+        android:text="Image Toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="imageToast"
+        />
+
+</LinearLayout>
