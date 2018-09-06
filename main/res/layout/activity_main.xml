@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mohammad.aaatest.MainActivity">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Basic"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textAllCaps="false"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+        android:id="@+id/Button_Animation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="8dp"
+        android:text="Animation"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/Button_Game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="8dp"
+        android:text="Game"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Button_Audio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:text="Audio"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            />
+
+        <Button
+            android:id="@+id/Button_Diloag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:text="Diloag"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/Button_SimpleList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:text="Simple List"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            />
+
+        <Button
+            android:id="@+id/Button_CustomList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:text="Custum List"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/Button_Toast"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:text="Toast"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                />
+
+            <Button
+                android:id="@+id/Button_RadioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:text="Radio Button"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/Button_ration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:text="Ration Bar"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                />
+
+            <Button
+                android:id="@+id/Button_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:text="Spinner"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/CustomView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:text="CustomView"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                />
+
+            <Button
+                android:id="@+id/SnackBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:text="SnackBar"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/URL_ONE_PIC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:text="URL One Pic"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                />
+
+            <Button
+                android:id="@+id/URL_MultiPic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:text="URL Multi Pic"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/JSONText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:text="URL Text"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                />
+
+            <Button
+                android:id="@+id/JSONN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:text="JSON"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/Volloyy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:text="Volloey"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                />
+
+            <Button
+                android:id="@+id/o"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:text=""
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
