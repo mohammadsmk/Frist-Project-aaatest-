@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    >
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/forminfo_edittext_name"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+      />
+    <EditText
+        android:id="@+id/forminfo_edittext_phone"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone"
+        />
+  </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/forminfo_checkbox_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share Your Phone Number"
+        android:layout_margin="8dp"
+        android:checked="true"
+        />
+
+
+    <EditText
+        android:id="@+id/forminfo_edittext_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        />
+
+    <Button
+        android:id="@+id/forminfo_btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="Submit"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:layout_margin="8dp"
+
+        />
+
+</LinearLayout>
